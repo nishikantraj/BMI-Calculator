@@ -1,0 +1,46 @@
+*{
+  padding:0;
+  margin:0;
+}
+.main{
+  border: 3px solid black;
+  height:100vh;
+  display: flex;
+  flex-direction:column;
+  gap: 10px;
+}
+.template1{
+  border: 2px solid red;
+  height:50%;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.pheight{
+  background-color: skyblue;
+  font-size:30px;
+  display:flex;
+  justify-content: center;
+}
+.pweight{
+  background-color: lightblue;
+  font-size:30px;
+  display:flex;
+  justify-content: center;
+  /* padding: -80px; */
+}
+.cweight{
+  /* margin-right: 20px; */
+}
+.button{
+  background-color: red;
+}
+.template2{
+  border: 2px solid green;
+  height:50%;
+  width: 100%;
+  box-sizing: border-box;
+}
