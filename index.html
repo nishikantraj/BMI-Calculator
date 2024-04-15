@@ -10,42 +10,62 @@
 
 <body>
     <div class="main">
+      <div class="title">
+        <h1>BMI Calculator</h1>
+      </div>
       <div class="template1">
 
         <!-- Height box -->
         <div class="pheight">
-          <div id="height">
-            <form>
-              <label>Enter your Height: </label>
-              <div class="input_box1">
-                <input type="number" min="1" max="15" step="1" required placeholder="feet">
-                <input type="number" min="1" max="100" step="1" required placeholder="inch">
-              </div>
-            </form>
-          </div>
+          <form class="cheight">
+            <label>Enter your Height: </label>
+            <div class="input_box1">
+              <input id="input" type="number" min="1" max="15" step="1" required placeholder="feet">
+              <input id="input" type="number" min="1" max="100" step="1" required placeholder="inch">
+            </div>
+          </form>
         </div>
 
         <!-- Weight box -->
         <div class="pweight">
-          <div id="weight">
-            <form class="cweight">
-              <div class="input_box2">
-                <label>Enter your Weight: </label>
-                <input type="number" min="1" max="500" step="1" required placeholder="kg">
-              </div>
-            </form>
-          </div>
+          <form class="cweight">
+            <label>Enter your Weight: </label>
+            <div class="input_box2">
+              <input id="input1" type="number" min="1" max="500" step="1" required placeholder="kg">
+            </div>
+          </form>
         </div>
 
         <!-- Submit button -->
-        <div class="button">
+        <div class="btn">
           <button>Calculate BMI</button>
         </div>
         
       </div>
       
       <div class="template2">
-        vds
+        <table class="data">
+          <tr>
+            <th>BMI</th>
+            <th>Weight Status</th>
+          </tr>
+          <tr>
+            <td style="background-color: rgb(248, 121, 121);">Below 18.5</td>
+            <td style="background-color: rgb(248, 121, 121);">Underweight</td>
+          </tr>
+          <tr>
+            <td style="background-color: rgb(43, 201, 15);">18.5-24.9</td>
+            <td style="background-color: rgb(43, 201, 15);">Normal or Healthy weight</td>
+          </tr>
+          <tr>
+            <td style="background-color: orange;">25.0-29.9</td>
+            <td style="background-color: orange;">Overweight</td>
+          </tr>
+          <tr>
+            <td style="background-color: orangered;">Above 30.0</td>
+            <td style="background-color: orangered;">Obese</td>
+          </tr>
+        </table>
       </div>
     </div>
   
