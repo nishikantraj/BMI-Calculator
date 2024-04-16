@@ -134,4 +134,5 @@
   box-sizing: border-box;
   font-size: x-large;
   font-weight: 400;
+  overflow: auto;
 }
