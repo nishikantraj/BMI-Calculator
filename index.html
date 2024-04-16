@@ -20,8 +20,8 @@
           <form class="cheight">
             <label>Enter your Height: </label>
             <div class="input_box1">
-              <input id="input" type="number" min="1" max="15" step="1" required placeholder="feet">
-              <input id="input" type="number" min="1" max="100" step="1" required placeholder="inch">
+              <input id="input" class="feet" type="number" min="1" max="15" step="1" required placeholder="feet">
+              <input id="input" class="inch" type="number" min="1" max="12" step="1" required placeholder="inch">
             </div>
           </form>
         </div>
@@ -31,16 +31,20 @@
           <form class="cweight">
             <label>Enter your Weight: </label>
             <div class="input_box2">
-              <input id="input1" type="number" min="1" max="500" step="1" required placeholder="kg">
+              <input id="input1" class= "weight" type="number" min="1" max="500" step="1" required placeholder="kg">
             </div>
           </form>
         </div>
 
         <!-- Submit button -->
         <div class="btn">
-          <button>Calculate BMI</button>
+          <button type="submit">Calculate BMI</button>
         </div>
         
+
+        <!--Result -->
+        <div class="presult">
+        </div>
       </div>
       
       <div class="template2">
